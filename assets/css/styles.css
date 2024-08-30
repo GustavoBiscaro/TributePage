@@ -1,0 +1,446 @@
+html {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header {
+    border: 2px groove #fff;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.autor figure img {
+    display: flex;
+    box-shadow: 1px 1px 4px #494949;
+    border: 1px solid #fff;
+    width: 20vw;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-bottom: 5vh;
+
+}
+
+.autor figure img:hover {
+    opacity: 0.9;
+}
+
+.autor {
+    background-image: url('../img/wallpaper-fire.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.autor h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px #7c7272;
+}
+
+
+
+
+.doomBanner {
+    background-image: url('../img/doom_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid #000;
+    align-items: center;
+    text-align: justify;
+}
+
+.doomBanner .textBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.doomBanner h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 1.5em;
+}
+
+.doomBanner h3 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 1.1em;
+}
+
+#historia {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 5px;
+    align-items: flex-start;
+
+}
+
+#historia #trajetoria {
+    margin-right: 5vw;
+    padding: 10px;
+}
+
+#historia #filme {
+    margin-right: 5vw;
+    padding: 10px;
+}
+
+#historia #causas {
+    margin-right: 5vw;
+    padding: 10px;
+}
+
+#historia #trajetoria h1 {
+    padding: 10px;
+    background-color: #f15b04;
+    color: white;
+}
+
+#historia #filme h1 {
+    padding: 10px;
+    background-color: #f15b04;
+    color: white;
+}
+
+#historia #causas h1 {
+    padding: 10px;
+    background-color: #f15b04;
+    color: white;
+}
+
+.line {
+    width: 100vw;
+    height: 2px;
+    background-color: #f15b04;
+
+}
+
+/* galeria */
+#games {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#games h1 {
+    color: #f15b04;
+    margin-bottom: 5vh;
+    padding: 15px;
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+
+#games .box-game figure {
+    padding: 15px;
+    width: 20vw;
+    height: 20vh;
+}
+
+#games .box-game figure figcaption {
+    text-align: center;
+    margin-right: 50vw;
+    margin-left: 50vw;
+    padding: 15px;
+    background-color: #f15b04;
+    width: 15vw;
+    border-radius: 15px;
+    margin-top: 5px;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#games .box-game figure figcaption:hover {
+    opacity: 0.9;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.box-game {
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 5vh;
+}
+
+.box-game img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.box-game img:hover {
+    opacity: 0.9;
+}
+
+/* Footer */
+
+#utils {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#utils #links {
+    padding: 20px;
+    flex: 1;
+}
+
+#links h3 {
+    color: #f15b04;
+}
+
+#links li a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+#links li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f15b04;
+    -moz-text-decoration-color: #f15b04;
+    font-weight: bold;
+}
+
+#utils #aboutme {
+    flex: 1;
+    text-wrap: wrap;
+    padding: 15px;
+    color: #000;
+}
+
+address {
+    width: 15vw;
+    text-align: justify;
+}
+
+#aboutme h3 {
+    color: #f15b04;
+}
+
+#utils #store {
+    padding: 15px;
+    flex: 1;
+
+}
+
+#store h3 {
+    color: #f15b04;
+}
+
+#store li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#store li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #f15b04;
+    -moz-text-decoration-color: #f15b04;
+    font-weight: bold;
+}
+
+footer {
+    width: 100vw;
+    height: 1vh;
+    margin: 0;
+    color: #fff;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+footer #infos {
+    text-align: center;
+    padding: 10px;
+    background-color: #f15b04;
+    color: white;
+    font-size: 0.9em;
+    margin: 0;
+    width: 100%;
+    font-weight: bolder;
+
+
+}
+
+@media (max-width: 390px) {
+
+    header {
+        width: 99vw;
+        background-color: #000;
+        border: 2px solid #f15b04;
+    }
+
+    .autor {
+        width: 100%;
+
+    }
+
+    .autor figure img {
+        width: 50vw;
+    }
+
+    #banner {
+        width: 100vw;
+    }
+
+    .doomBanner {
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+        margin-top: 2px;
+        border: 2px solid #f15b04;
+        width: 93.9vw;
+    }
+
+    #banner .doomBanner .textBanner h1 {
+        font-size: 12px;
+        text-align: center;
+       
+
+    }
+
+    #banner .doomBanner .textBanner h3 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #games {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #games h1 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin: 0;
+    }
+
+    #games .box-game figure {
+        margin-top: 0;
+        padding: 15px;
+        width: 40vw;
+        height: 40vh;
+    }
+
+
+    #games .box-game figure img {
+        object-fit: cover;
+        padding: 15px;
+        height: 30vh;
+        width: 30vw;
+
+    }
+
+
+    #games .box-game figure figcaption {
+        text-align: center;
+        margin-right: 50vw;
+        margin-left: 50vw;
+        padding: 15px;
+        background-color: #f15b04;
+        width: 50vw;
+        border-radius: 15px;
+        margin-top: 5px;
+        font-weight: bolder;
+        color: #fff;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+
+    footer #utils {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #utils #links {
+       display: flex;
+       flex-direction: row;
+       font-size: 14px;
+    }
+
+    #utils #aboutme {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        
+    }
+
+    #aboutme address {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 2.5em;
+        text-align: justify;
+        width: 100vw;
+        font-size: 14px;
+        
+    }
+
+    address p {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #utils #store {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+    }
+
+    footer #infos {
+        display: flex;
+        font-size: 10px;
+    }
+
+   
+}
